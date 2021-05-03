@@ -1,0 +1,224 @@
+{
+    "metadata": {
+        "type": "itplevel",
+        "version": 2
+    },
+
+    "camera": {
+        "position": [ -200.0, 0.0, 100.0 ],
+        "rotation": [ 0.0, 0.0, 0.0, 1.0 ]
+    },
+
+    "lightingData": {
+        "ambient": [ 0.1, 0.1, 0.1 ],
+        "pointLights": [
+        ]
+    },
+
+    "renderObjects": [
+        {
+            "position": [ 0.0, 0.0, 50.0 ],
+            "rotation": [ 0.0, 0.0, 0.0, 1.0 ],
+            "scale": 0.5,
+            "mesh": "Assets/Meshes/LightSphere.itpmesh2",
+            "components": [
+                {
+                    "type": "PointLight",
+                    "diffuseColor": [ 0.0, 1.0, 0.0 ],
+                    "specularColor": [ 0.5, 1.0, 0.5 ],
+                    "specularPower": 10.0,
+                    "innerRadius": 125.0,
+                    "outerRadius": 250.0
+                },
+                {
+                    "type": "Particle",
+                    "position": [ 0.0, 0.0, 0.0 ],
+                    "rotation": [ 0.0, 0.707, 0.0, -0.707 ],
+                    "texture": "Assets/Textures/Cloud.png",
+                    "blend": "blend",
+                    "startSize": 5.0,
+                    "endSize": 10.0,
+                    "forwardSpeed": 100.0,
+                    "outSpeed": 30.0,
+                    "gravity": 50.0,
+                    "startColor": [ 0.0, 0.0, 1.0, 1.0 ],
+                    "endColor": [ 0.0, 1.0, 0.0, 0.0 ],
+                    "timeout": 3.0,
+                    "emissionRate": 100.0
+                }
+            ]
+        },
+        {
+            "position": [ 650.0, 0.0, 50.0 ],
+            "rotation": [ 0.0, 0.0, 0.0, 1.0 ],
+            "scale": 0.5,
+            "mesh": "Assets/Meshes/LightSphere.itpmesh2",
+            "components": [
+                {
+                    "type": "PointLight",
+                    "diffuseColor": [ 0.0, 0.0, 1.0 ],
+                    "specularColor": [ 0.5, 0.5, 1.0 ],
+                    "specularPower": 10.0,
+                    "innerRadius": 125.0,
+                    "outerRadius": 250.0
+                },
+                {
+                    "type": "Particle",
+                    "position": [ 0.0, 0.0, 0.0 ],
+                    "rotation": [ 0.0, 0.707, 0.0, -0.707 ],
+                    "texture": "Assets/Textures/Cloud.png",
+                    "blend": "blend",
+                    "startSize": 5.0,
+                    "endSize": 10.0,
+                    "forwardSpeed": 100.0,
+                    "outSpeed": 30.0,
+                    "gravity": 50.0,
+                    "startColor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "endColor": [ 0.0, 0.0, 0.0, 0.0 ],
+                    "timeout": 3.0,
+                    "emissionRate": 100.0
+                }
+            ]
+        },
+        {
+            "position": [ 0.0, 650.0, 50.0 ],
+            "rotation": [ 0.0, 0.0, 0.0, 1.0 ],
+            "scale": 0.5,
+            "mesh": "Assets/Meshes/LightSphere.itpmesh2",
+            "components": [
+                {
+                    "type": "PointLight",
+                    "diffuseColor": [ 1.0, 0.0, 0.0 ],
+                    "specularColor": [ 1.0, 0.5, 0.5 ],
+                    "specularPower": 10.0,
+                    "innerRadius": 125.0,
+                    "outerRadius": 250.0
+                },
+                {
+                    "type": "Particle",
+                    "position": [ 0.0, 0.0, 0.0 ],
+                    "rotation": [ 0.0, 0.707, 0.0, -0.707 ],
+                    "texture": "Assets/Textures/Cloud.png",
+                    "blend": "blend",
+                    "startSize": 5.0,
+                    "endSize": 10.0,
+                    "forwardSpeed": 100.0,
+                    "outSpeed": 30.0,
+                    "gravity": 50.0,
+                    "startColor": [ 1.0, 1.0, 1.0, 1.0 ],
+                    "endColor": [ 1.0, 1.0, 1.0, 0.0 ],
+                    "timeout": 3.0,
+                    "emissionRate": 100.0
+                }
+            ]
+        },
+        {
+            "position": [ 650.0, 650.0, 50.0 ],
+            "rotation": [ 0.0, 0.0, 0.0, 1.0 ],
+            "scale": 0.5,
+            "mesh": "Assets/Meshes/LightSphere.itpmesh2",
+            "components": [
+                {
+                    "type": "PointLight",
+                    "diffuseColor": [ 1.0, 1.0, 0.0 ],
+                    "specularColor": [ 1.0, 1.0, 0.5 ],
+                    "specularPower": 10.0,
+                    "innerRadius": 125.0,
+                    "outerRadius": 250.0
+                },
+                {
+                    "type": "Particle",
+                    "position": [ 0.0, 0.0, 0.0 ],
+                    "rotation": [ 0.0, 0.707, 0.0, -0.707 ],
+                    "texture": "Assets/Textures/Cloud.png",
+                    "blend": "blend",
+                    "startSize": 5.0,
+                    "endSize": 10.0,
+                    "forwardSpeed": 100.0,
+                    "outSpeed": 30.0,
+                    "gravity": 50.0,
+                    "startColor": [ 1.0, 0.1, 0.1, 0.5 ],
+                    "endColor": [ 1.0, 1.0, 0.0, 0.0 ],
+                    "timeout": 3.0,
+                    "emissionRate": 100.0
+                }
+            ]
+        },
+        {
+            "position": [ 0.0, 0.0, 0.0 ],
+            "rotation": [ 0.0, 0.0, 0.0, 1.0 ],
+            "scale": 5.0,
+            "mesh": "Assets/Meshes/Platform.itpmesh2",
+            "components": [
+                {
+                    "type": "Collision",
+                    "min": [ -50.0, -50.0, -1.0 ],
+                    "max": [ 50.0, 50.0, 0.0 ]
+                }
+            ]
+        },
+        {
+            "position": [ 650.0, 0.0, 0.0 ],
+            "rotation": [ 0.0, 0.0, 0.0, 1.0 ],
+            "scale": 5.0,
+            "mesh": "Assets/Meshes/Platform.itpmesh2",
+            "components": [
+                {
+                    "type": "Collision",
+                    "min": [ -50.0, -50.0, -1.0 ],
+                    "max": [ 50.0, 50.0, 0.0 ]
+                }
+            ]
+        },
+        {
+            "position": [ 0.0, 650.0, 0.0 ],
+            "rotation": [ 0.0, 0.0, 0.0, 1.0 ],
+            "scale": 5.0,
+            "mesh": "Assets/Meshes/Platform.itpmesh2",
+            "components": [
+                {
+                    "type": "Collision",
+                    "min": [ -50.0, -50.0, -1.0 ],
+                    "max": [ 50.0, 50.0, 0.0 ]
+                }
+            ]
+        },
+        {
+            "position": [ 650.0, 650.0, 0.0 ],
+            "rotation": [ 0.0, 0.0, 0.0, 1.0 ],
+            "scale": 5.0,
+            "mesh": "Assets/Meshes/Platform.itpmesh2",
+            "components": [
+                {
+                    "type": "Collision",
+                    "min": [ -50.0, -50.0, -1.0 ],
+                    "max": [ 50.0, 50.0, 0.0 ]
+                }
+            ]
+        },
+        {
+            "position": [ 0.0, 0.0, 0.0 ],
+            "rotation": [ 0.0, 0.0, 0.0, 1.0 ],
+            "scale": 1.0,
+            "mesh": "Assets/Meshes/SK_Mannequin.itpmesh2",
+            "components": [
+                {
+                    "type": "Player",
+                    "skeleton": "Assets/Anims/SK_Mannequin.itpskel",
+                    "animations": [
+                        [ "idle", "Assets/Anims/ThirdPersonIdle.itpanim2" ],
+                        [ "run", "Assets/Anims/ThirdPersonRun.itpanim2" ],
+                        [ "jumpStart", "Assets/Anims/ThirdPersonJump_Start.itpanim2" ],
+                        [ "jump", "Assets/Anims/ThirdPersonJump_Loop.itpanim2" ],
+                        [ "land", "Assets/Anims/ThirdPersonJump_End.itpanim2" ],
+                        [ "fall", "Assets/Anims/ThirdPersonJump_Loop.itpanim2" ]
+                    ]
+                },
+                {
+                    "type": "FollowCam",
+                    "offset": [ -200.0, 0.0, 100.0 ]
+                }
+            ]
+        }
+    ]
+}
